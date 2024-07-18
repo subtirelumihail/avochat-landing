@@ -1,0 +1,48 @@
+.main {
+    background-color: transparent;
+    padding: 20px 3% 120px;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.content h2 {
+    color: #191b22;
+    letter-spacing: -.03em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.content p {
+    color: #546285;
+    letter-spacing: -.02em;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:991px) {
+    .content h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .content p {
+        text-align: center;
+    }
+}

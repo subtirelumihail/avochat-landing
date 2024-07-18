@@ -28,9 +28,9 @@ export default function Footer () {
               </div>
               <div className={styles.colUtile}>
                 <div className={styles.title}>Utile</div>
-                <a href='/politica-de-confidentialitate'>Politică de confidențialitate</a>
-                <a href='/termeni-si-conditii'>Termeni și condiții</a>
-                <a href='/definitii'>Definiții</a>
+                <a href='/utile/politica-de-confidentialitate'>Politică de confidențialitate</a>
+                <a href='/utile/termeni-si-conditii'>Termeni și condiții</a>
+                <a href='/utile/definitii'>Definiții</a>
               </div>
               <div className={styles.colLegal}>
                 <a 
