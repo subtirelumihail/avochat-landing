@@ -28,7 +28,7 @@ export default function Contact (){
                           href='https://app.avochat.net/?language=ro'
                           target='_blank'
                         >
-                          <strong class="bold-text">Vorbește cu un avocat</strong>
+                          <strong>Vorbește cu un avocat</strong>
                         </a>
                     </div>
                     <div className={styles.img}>

@@ -5,18 +5,25 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Nav() {
-  const [display, setDisplay] = React.useState('none')
+  const [display, setDisplay] = React.useState('flex')
 
-  const toogleWiew = () => {
+  const toogleView = () => {
     display === 'none' ? setDisplay('flex') : setDisplay('none')
   }
 
+  const closeMenuMobile = () => {
+    if(window.innerWidth < 991) {
+      setDisplay('none')
+    }
+  }
+
   React.useEffect(()=>{
-   if (window.innerWidth > 991) {
-    setDisplay('flex')
+   if (window.innerWidth < 991) {
+    setDisplay('none')
    }
   },[])
 
+  console.log(display)
     return (
         <nav className={styles.nav}>
         <section className={styles.logo}>
@@ -28,7 +35,7 @@ export default function Nav() {
             />
           <div 
             className={styles.menubtn}
-            onClick={()=> toogleWiew()}
+            onClick={()=> toogleView()}
           >
             <div className={styles.svg}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -42,22 +49,22 @@ export default function Nav() {
           style={{display:display}}
         >
           <li
-           onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='/'>Acasa</Link></li>
           <li
-           onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='https://app.avochat.net/page/ProviderList?language=ro'>Avocati</Link> </li>
           <li
-            onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='/arii-de-practica'>Arii de practica</Link></li>
           <li
-            onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='/despre-noi'>Despre noi</Link></li>
           <li
-            onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='/intrebari-frecvente'>Intrebari Frecvente</Link></li>
           <li
-            onClick={()=>setDisplay('none')}
+            onClick={()=>closeMenuMobile()}
           ><Link href='/contact'>Contact</Link></li>
         </ul>
       </nav>
