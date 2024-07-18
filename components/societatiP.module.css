@@ -1,0 +1,60 @@
+.main {
+    border: 1px #000;
+    border-radius: 0;
+    padding: 60px 30px;
+    position: relative;
+}
+
+.title {
+    width: 100%;
+    max-width: 670px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+
+.title h2 {
+    color: black;
+    letter-spacing: -.03em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.logos {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wraper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -10px;
+    display: flex;
+}
+
+.wraper img {
+    width: 200px;
+}
+
+@media screen and (max-width:991px) {
+    .title h2 {
+        font-size: 28px;
+    }
+
+    .wraper img {
+        margin-bottom: 40px;
+    }
+}

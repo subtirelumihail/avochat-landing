@@ -1,0 +1,214 @@
+.main {
+    background-color: #f5fbfc;
+    background-image: url('/patternfooter.svg');
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 3% 60px;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.grid {
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.colLogo img {
+    width: 178px;
+    margin-bottom: 25px;
+}
+
+.colLogo p {
+    color: #546285;
+    letter-spacing: -.02em;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.colAvochat {
+    grid-area: 1 / 3 / 2 / 4;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.title {
+    color: #08090a;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.colAvochat a,
+.colUtile a
+{
+    color: #546285;
+    margin-bottom: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.colUtile {
+    grid-area: 1 / 4 / 2 / 5;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.colLegal {
+    grid-area: 1 / 5 / 2 / 6;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+.colLegal a {
+    max-width: 100%;
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.colLegal img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.social {
+    border-top: 1px solid rgba(126, 130, 143, .09);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 15px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    min-height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    border: 1px solid rgba(126, 130, 143, .3);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 10px;
+    transition: all .2s;
+    display: flex;
+}
+
+.right {
+    width: 50%;
+    min-height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.tm {
+    color: #353448;  
+}
+
+.tm a {
+    text-decoration: underline;
+    color: #4348ea;
+}
+
+@media screen and (max-width:991px) {
+    .main {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+    .grid {
+        grid-column-gap: 24px;
+        grid-row-gap: 50px;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .colLogo {
+        grid-area: span 1 / span 3 / span 1 / span 3;
+        align-self: auto;
+        justify-self: auto;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .colAvochat {
+        grid-area: 2 / 1 / 3 / 4;
+        grid-area: 2 / 1 / 3 / 4;
+        align-self: auto;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .colUtile {
+        grid-area: 3 / 1 / 4 / 4;
+        align-self: auto;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .colLegal {
+        grid-area: 4 / 1 / 5 / 4;
+        align-self: auto;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .social {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .left,
+    .right {
+        justify-content: center;
+    }
+}
