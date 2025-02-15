@@ -6,7 +6,7 @@ export default function ContentCF () {
   return (
     <section className={styles.main}>
       <div className={styles.titleWrap}>
-       <h2>Cum funcționează AvoChat</h2>
+       <h2>Cum funcționează Avochat</h2>
       </div>
       <div className={styles.grid}>
         <article className={styles.card}>

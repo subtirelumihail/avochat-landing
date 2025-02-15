@@ -8,7 +8,7 @@ export default function DespreNoi () {
       <>
         <div className={styles.wraper}>
           <div className={styles.header}>
-            <h1 className={styles.title}>Viziunea & Misiunea AvoChat</h1>
+            <h1 className={styles.title}>Viziunea & Misiunea Avochat</h1>
           </div>
         </div>
         <div className={styles.content}>
@@ -25,7 +25,7 @@ export default function DespreNoi () {
                   Astfel, oferim tuturor celor care au nevoie, posibilitatea de a descoperi și angaja avocați cu experiență, care deservesc o gamă variată de domenii de practică în cadrul întregului spectru juridic. Asigurăm transparență în ceea ce privește competențele și experiența acestora, alături de un rating calculat pe baza feedback-ului utilizatorilor.
                   <br/>
                   <br/>
-                  Prin intermediul unui chat online intuitiv și securizat, poți adresa întrebări și primi răspunsuri de la avocați cu experiență, în timp real, indiferent de locul în care te afli. Rapid și ușor accesibil au fost și continuă să fie caracteristicile esențiale care au ghidat dezvoltarea AvoChat.
+                  Prin intermediul unui chat online intuitiv și securizat, poți adresa întrebări și primi răspunsuri de la avocați cu experiență, în timp real, indiferent de locul în care te afli. Rapid și ușor accesibil au fost și continuă să fie caracteristicile esențiale care au ghidat dezvoltarea Avochat.
                   <br/>
                   <br/>
                   Dacă ești avocat și dorești să te alături echipei noastre de avocați-parteneri, te invităm să ne scrii la {''}
@@ -33,7 +33,7 @@ export default function DespreNoi () {
                   , iar noi îți vom răspunde rapid, desigur.
                   <br/>
                   <br/>
-                  La AvoChat, construim cu ajutorul tehnologiei o platformă unde clienții mulțumiți și avocații calificați colaborează rapid și eficient, obținând rezultate solide.
+                  La Avochat, construim cu ajutorul tehnologiei o platformă unde clienții mulțumiți și avocații calificați colaborează rapid și eficient, obținând rezultate solide.
                 </p>
                 <a href='https://app.avochat.net/?language=ro' target='_blank'>
                   <strong className={styles.btn}>Vorbește cu un avocat</strong>
