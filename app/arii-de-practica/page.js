@@ -8,7 +8,7 @@ export default function AriiDePractica () {
         <>
           <div className={styles.wraper}>
             <div className={styles.header}>
-              <h1 className={styles.title}>Arii de practică</h1>
+              <h1 className={styles.title}>Avocați</h1>
             </div>
           </div>
           <article className={styles.content}>

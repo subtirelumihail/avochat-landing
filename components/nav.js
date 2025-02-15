@@ -27,12 +27,14 @@ export default function Nav() {
     return (
         <nav className={styles.nav}>
         <section className={styles.logo}>
+        <Link href='/'>
             <Image 
                 src='/logo.png'
                 alt='logo'
                 width={176}
                 height={47}
             />
+            </Link>
           <div 
             className={styles.menubtn}
             onClick={()=> toogleView()}
@@ -48,12 +50,12 @@ export default function Nav() {
           className={styles.links}
           style={{display:display}}
         >
-          <li
+           <li
             onClick={()=>closeMenuMobile()}
           ><Link href='/'>Acasa</Link></li>
-          <li
+         <li
             onClick={()=>closeMenuMobile()}
-          ><Link href='/arii-de-practica'>Arii de practica</Link></li>
+          ><Link href='/arii-de-practica'>Avocați</Link></li>
           <li
             onClick={()=>closeMenuMobile()}
           ><Link href='/despre-noi'>Despre noi</Link></li>
