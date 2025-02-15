@@ -50,9 +50,6 @@ export default function Nav() {
           className={styles.links}
           style={{display:display}}
         >
-           <li
-            onClick={()=>closeMenuMobile()}
-          ><Link href='/'>Acasa</Link></li>
          <li
             onClick={()=>closeMenuMobile()}
           ><Link href='/arii-de-practica'>Avocați</Link></li>

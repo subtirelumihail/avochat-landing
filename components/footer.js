@@ -19,6 +19,7 @@ export default function Footer () {
               </div>
               <div className={styles.colAvochat}>
                 <div className={styles.title}>Avochat</div>
+                <a href='/'>Acasa</a>
                 <a href='/arii-de-practica'>Avocați</a>
                 <a href='/despre-noi'>Despre Noi</a>
                 <a href='/intrebari-frecvente'>Întrebări Frecvente</a>
