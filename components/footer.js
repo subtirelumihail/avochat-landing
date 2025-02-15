@@ -20,7 +20,6 @@ export default function Footer () {
               <div className={styles.colAvochat}>
                 <div className={styles.title}>Avochat</div>
                 <a href='/'>Acasa</a>
-                <a href='https://app.avochat.net/page/ProviderList?language=ro'>Avocati</a>
                 <a href='/arii-de-practica'>Arii de practică</a>
                 <a href='/despre-noi'>Despre Noi</a>
                 <a href='/intrebari-frecvente'>Întrebări Frecvente</a>
@@ -66,11 +65,7 @@ export default function Footer () {
               </div>
               <div className={styles.right}>
                 <div className={styles.tm}>
-                  Images by {''}
-                  <a href='https://www.freepik.com/free-vector/divorce-abstract-concept-illustration-marriage-dissolution-separation-through-divorce-decree-husband-wife-conflict-healthy-breakup-parents-fight-break-up_10782479.htm#query=lawyer&position=46&from_view=author#position=46&query=lawyer'>
-                    vectorjuice {''}
-                  </a>
-                  on Freepik
+
                 </div>
               </div>
               <div></div>

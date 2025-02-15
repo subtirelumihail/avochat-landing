@@ -53,9 +53,6 @@ export default function Nav() {
           ><Link href='/'>Acasa</Link></li>
           <li
             onClick={()=>closeMenuMobile()}
-          ><Link href='https://app.avochat.net/page/ProviderList?language=ro'>Avocati</Link> </li>
-          <li
-            onClick={()=>closeMenuMobile()}
           ><Link href='/arii-de-practica'>Arii de practica</Link></li>
           <li
             onClick={()=>closeMenuMobile()}

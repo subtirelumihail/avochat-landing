@@ -7,7 +7,7 @@ export default function Parteneri() {
     <section className={styles.main}>
      <div className={styles.content}>
       <h2>Parteneri &amp; Beneficii</h2>
-      <p>Prin platforma AvoChat beneficiezi și de coduri de reducere pe care partenerii noștri le pun la dispoziția utilizatorilor. Construim o comunitate în care ne ajutăm și ne sprijinim reciproc nu doar în ceea ce privește siguranța juridică.
+      <p>Prin platforma Avochat beneficiezi și de coduri de reducere pe care partenerii noștri le pun la dispoziția utilizatorilor. Construim o comunitate în care ne ajutăm și ne sprijinim reciproc nu doar în ceea ce privește siguranța juridică.
       </p>
       <div className={styles.list}>
         <div className={styles.card}>

@@ -28,24 +28,8 @@ export default function Main () {
         </div>
         <div className={styles.btns}>
           <div className={styles.btnsWraper}>
-            <a
-              href="https://apps.apple.com/ro/app/avochat/id6444870487"
-            >
-              <img 
-                src='/appStore.png'
-                style={{width:'154px'}}
-             />
-            </a>
           </div>
           <div className={styles.btnsWraper}>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.avochat&hl=en&gl=US"
-            >
-              <img 
-                src='/googlePlay.png'
-                style={{width:'180px'}}
-             />
-            </a>
           </div>
         </div>
       </article>
